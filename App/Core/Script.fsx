@@ -2,6 +2,6 @@
 // for more guidance on F# programming.
 
 #load "Core.fs"
-open Core
+open App.Core
 
 // Define your library scripting code here
