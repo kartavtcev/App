@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>FAKE</id>
+    <version>4.23.0</version>
+    <authors>Steffen Forkmann, Mauricio Scheffer, Colin Bull</authors>
+    <owners>Steffen Forkmann, Mauricio Scheffer, Colin Bull</owners>
+    <licenseUrl>http://www.github.com/fsharp/Fake/blob/master/License.txt</licenseUrl>
+    <projectUrl>http://www.github.com/fsharp/Fake</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/fsharp/FAKE/master/help/pics/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>FAKE - F# Make - is a build automation tool for .NET. Tasks and dependencies are specified in a DSL which is integrated in F#. This package bundles all extensions.</description>
+    <summary>FAKE - F# Make - Get rid of the noise in your build scripts.</summary>
+    <releaseNotes>Make a new method for sending a coverage file to TeamCity - https://github.com/fsharp/FAKE/pull/1195
+Added more deployment options for OctoTools - https://github.com/fsharp/FAKE/pull/1192
+Added contents of `AssemblyInformationalVersionAttribute` to the `AssemblyVersionInformation` class - https://github.com/fsharp/FAKE/pull/1183
+Added HarvestDirectory helper to the WixHelper Library - https://github.com/fsharp/FAKE/pull/1179
+Added support for SQL DacPac - https://github.com/fsharp/FAKE/pull/1185
+Provide CurrentTargetOrder for build scripts
+Added namespace/class/method args for xunit2 - https://github.com/fsharp/FAKE/pull/1180
+If build failed then kill all created processes at end of build
+Make DynamicsNAV errors a known FAKE exception
+BUGFIX: Fixed hard coded path in artifact publishing to AppVeyor - https://github.com/fsharp/FAKE/pull/1176</releaseNotes>
+    <language>en-US</language>
+    <tags>build, fake, f#</tags>
+  </metadata>
+</package>
