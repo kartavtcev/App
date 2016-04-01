@@ -2,3 +2,7 @@ NUGET
   remote: https://www.nuget.org/api/v2
   specs:
     FAKE (4.23)
+GITHUB
+  remote: github/gitignore
+  specs:
+    VisualStudio.gitignore (4caa9bfad9c46254724a3ff3c1f6b1c4c2a687a0)
