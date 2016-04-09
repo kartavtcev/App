@@ -1,6 +1,21 @@
 module App.Ui.Console
 
+open App.Core
+open ImmutableTrie
+
+let count (tree : Trie) =
+  let visitor =
+    { new IVisit<int> with
+          member this.Visit quant word =
+            if quant.Value > 0 then
+              printfn "'%s' : %d" word quant.Value
+    }
+  tree.Traverse(visitor.Visit, "")
+
 [<EntryPoint>]
 let main argv =
-    printfn "%A" argv
-    0 // return an integer exit code
+  let words = ["hello"; "hi"; "hello"; "helloworld"]
+  let trie = Trie.Build(words)
+  count(trie)
+  System.Console.Read() |> ignore
+  0
