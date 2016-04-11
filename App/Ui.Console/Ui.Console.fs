@@ -25,8 +25,10 @@ let main argv =
   let mutable words = []
   let mutable line = " "
 
+  Console.WriteLine("Please, enter text.")
+
   while not (String.IsNullOrEmpty(line)) do
-  
+
     line <- Console.ReadLine()
     if (not (String.IsNullOrEmpty(line))) then
       let rawWords = line.Split(
@@ -34,14 +36,12 @@ let main argv =
                       StringSplitOptions.RemoveEmptyEntries)
       let smth = rawWords
                 |> Seq.map(fun word -> word.Trim() )
-                |> Seq.map(fun word -> word.Replace("”", "").Replace("“", ""))
                 |> Seq.map(fun word -> word.ToLowerInvariant())
                 |> Seq.filter(fun word -> (invalidWordsReg.IsMatch word ) = false)
                 |> Seq.toList
 
       words <- concat words smth
 
-  //let words = ["hello"; "hi"; "hello"; "helloworld"]
   let trie = Trie.Build(words)
   count(trie)
 
