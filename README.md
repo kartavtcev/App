@@ -1,9 +1,7 @@
-# Exercise. Version: 0.9. Update to version 1.0 when code would be unit tests covered.
+# Exercise. Version: 0.9. Update to version 1.0 when code would be unit tests covered. The solution is immutable tread-safe 'Trie' tree. 
 
 # ToDo:
 Cover code with unit-tests xUnit or NUnit.
-
-The solution is immutable tread-safe 'Trie' tree. 
 
 # How to open the solution:
 
