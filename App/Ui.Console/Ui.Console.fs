@@ -25,7 +25,7 @@ let main argv =
   let mutable words = []
   let mutable line = " "
 
-  Console.WriteLine("Please, enter text.")
+  Console.WriteLine("Please, enter text. After press 'Enter' key twice to build the Trie tree and count words.")
 
   while not (String.IsNullOrEmpty(line)) do
 
