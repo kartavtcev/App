@@ -1,4 +1,4 @@
-# Exercise. Version: 0.9. Update to version 1.0 when code would be unit tests covered. The solution is immutable tread-safe 'Trie' tree. 
+# Exercise 'Count words in text'. The solution is immutable tread-safe 'Trie' tree. Version: 0.9. Update to version 1.0 when code would be unit tests covered. 
 
 # ToDo:
 Cover code with unit-tests xUnit or NUnit.
