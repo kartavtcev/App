@@ -21,6 +21,7 @@ Go to '\App\build\' folder and run 'Ui.Console.exe'
 
 # Tools used to create project (no Visual Studio involved):
 
+.NET, F# language
 https://github.com/dahlbyk/posh-git
 http://ionide.io/
 https://atom.io/
