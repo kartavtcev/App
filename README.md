@@ -1,4 +1,4 @@
-# Exercise
+# Exercise. Version: 0.9. Update to version 1.0 when code would be unit tests covered.
 
 # ToDo:
 Cover code with unit-tests xUnit or NUnit.
