@@ -1,6 +1,6 @@
 namespace App.Core
 
-module Trie =
+module ImmutableTrie =
 
   let (^) l r = sprintf "%s%c" l r
 
