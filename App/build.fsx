@@ -14,7 +14,7 @@ let appReferences  =
       ++ "/**/*.fsproj"
 
 // version info
-let version = "0.1"  // or retrieve from CI server
+let version = "0.9"  // Change to 1.0 when code is unit tests covered.
 
 // Targets
 Target "Clean" (fun _ ->
