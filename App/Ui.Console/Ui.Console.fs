@@ -1,7 +1,7 @@
 module App.Ui.Console
 
 open App.Core
-open ImmutableTrie
+open Trie
 
 let count (tree : Trie) =
   let visitor =
@@ -14,8 +14,10 @@ let count (tree : Trie) =
 
 [<EntryPoint>]
 let main argv =
+
   let words = ["hello"; "hi"; "hello"; "helloworld"]
   let trie = Trie.Build(words)
   count(trie)
+
   System.Console.Read() |> ignore
   0
